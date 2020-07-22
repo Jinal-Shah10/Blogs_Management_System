@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+html{
+	background: url("3.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	
+}
+
+#button1{
+	height: 40px;
+	width:80%;
+	margin-left:3%;
+	font-size:30px;
+	color:black;
+	cursor:pointer;
+	padding-top: 5px;
+	padding-bottom: -3px;
+	background-color: white;
+	margin-left: 0px;
+	margin-top: 5px;
+	border: 0px;
+}
+
+#button2{
+	height: 40px;
+	width:100%;
+	font-size:25px;
+	color:black;
+	cursor:pointer;
+	padding-top: 5px;
+	padding-bottom: -3px;
+	background-color: white;
+}
+
+
+#button1:hover{
+	margin-right: -20px;
+}
+
+#main{
+z-index:0;
+position: absolute;
+height: 100%;
+overflow: scroll;
+width:100%;
+}
+
+body{
+	margin: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+<--zoom effect--!>
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+ background-color:#00506b;}
+
+.style_prevu_kit
+{
+    display:inline-block;
+    border:0;
+    width:196px;
+    height:210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+.style_prevu_kit1
+{
+    display:inline-block;
+    border:0;
+    width:196px;
+    height:210px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+.style_prevu_kit1:hover
+{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
